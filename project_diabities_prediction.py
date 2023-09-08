@@ -20,7 +20,7 @@ from sklearn.metrics import accuracy_score
 """
 
 #loading dataset
-diabities_data = pd.read_csv(r"C:\\Users\\Neeraj\\Downloads\\diabetes(1).csv")
+diabities_data = pd.read_csv("diabetes(1).csv")
 
 diabities_data.head()
 
